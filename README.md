@@ -34,7 +34,7 @@ chat-app/
 ## Bidrag
 Pull requests är välkomna!
 
-[Andi](https://github.com/andi49) (PROJEKTLEDARE) 🚩
+[Andreas](https://github.com/andi49) (PROJEKTLEDARE) 🚩
 
 [Eddie](https://github.com/eddiewn) 
 
