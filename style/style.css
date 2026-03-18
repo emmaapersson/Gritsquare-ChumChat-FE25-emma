@@ -4,5 +4,43 @@
 }
 
 :root{
+
+    /* Fonts */
     --font-one: "Inter", sans-serif;
+
+    /* Color */
+    --colorOne: #00A86B;
+}
+
+/* NAVBAR */
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 30px;
+  
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: var(--font-one);
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: var(--colorOne);
 }

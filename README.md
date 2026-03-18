@@ -4,7 +4,7 @@ En enkel realtids-chattapplikation där användare kan skicka meddelanden till v
 
 ---
 
-## 🚀 Funktioner
+## Funktioner
 
 * Skicka och ta emot meddelanden i realtid
 * Användarnamn / login (valfritt)
@@ -12,41 +12,7 @@ En enkel realtids-chattapplikation där användare kan skicka meddelanden till v
 * Responsiv design (mobil & desktop)
 
 ---
-
-## 🛠️ Teknologier
-
-* Frontend: (t.ex. React / HTML / CSS / JavaScript)
-* Backend: (t.ex. Node.js / Express)
-* Realtid: (t.ex. Socket.io / WebSockets)
-* Databas: (t.ex. MongoDB / Firebase)
-
----
-
-## 📦 Installation
-
-```bash
-git clone https://github.com/ditt-användarnamn/chat-app.git
-cd chat-app
-npm install
-```
-
----
-
-## ▶️ Starta projektet
-
-```bash
-npm start
-```
-
-Servern körs på:
-
-```
-http://localhost:3000
-```
-
----
-
-## 💡 Användning
+## Användning
 
 1. Öppna sidan i webbläsaren
 2. Ange ett användarnamn
@@ -54,7 +20,7 @@ http://localhost:3000
 
 ---
 
-## 📂 Projektstruktur
+## Projektstruktur
 
 ```bash
 chat-app/
@@ -65,48 +31,14 @@ chat-app/
 ```
 
 ---
-
-## ⚙️ Miljövariabler
-
-Skapa en `.env` fil:
-
-```env
-PORT=3000
-DB_URL=din_databas_url
-```
-
----
-
-## 🧪 Tester
-
-```bash
-npm test
-```
-
----
-
-## 🔮 Framtida funktioner
-
-* Privat chatt (DMs)
-* Emoji-stöd 😀
-* Filuppladdning 📎
-* Notifikationer 🔔
-* Dark mode 🌙
-
----
-
-## 🤝 Bidrag
+## Bidrag
 
 Pull requests är välkomna!
 
 ---
 
-## 📄 Licens
+## Licens
 
 MIT License
 
 ---
-
-## 📞 Kontakt
-
-GitHub: https://github.com/ditt-användarnamn
