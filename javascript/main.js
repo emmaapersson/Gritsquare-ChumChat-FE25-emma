@@ -34,10 +34,10 @@ onValue(messagesRef, snapshot => {
     const messages = snapshot.val();
     console.log(messages);
 
-    //document.querySelector(".chat-container").innerHTML = "";  <= TA BORT SNEDSTRECKEN EFTER IMPLEMENTERING, ANNARS KOMMER MEDDELANDEN DUPLICERAS!
+    document.querySelector(".chat-container").innerHTML = "";  
     for (let id in messages) {
         const msg = messages[id];
-        //RenderMessageBox(currentUser, msg);  <= TA BORT SNEDSTRECKEN, DÅ RENDERMESSAGEBOX SKA SENARE ANVÄNDAS HÄR!
+        RenderMessageBox(currentUser, msg);  
     }
 
 }, error => {
