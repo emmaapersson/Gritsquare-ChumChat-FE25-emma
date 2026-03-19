@@ -1,25 +1,5 @@
-//Register + login-functions
-
 import { usersRef, db } from "./firebase.js";
 import { push, set, get, update } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-database.js";
-
-export let currentUser = null;
-
-export const registerUser = (username, password, role) => {
-    const newUser = push(usersRef);
-
-    const userData = {
-        user_id: newUser.key,
-        username: username,
-        password: password,
-        role: role,
-        isLoggedIn: true,
-        img: "../img/kid.png",
-    }
-
-    set(newUser, userData);
-    currentUser = userData;
-}
 
 export const loginUser = async (username, password) => {
     try {
@@ -52,18 +32,3 @@ export const loginUser = async (username, password) => {
         alert("Something went wrong");
     }
 };
-
-export const logOutUser = async () => {
-    if (!currentUser) return;
-
-    try {
-        await update(ref(db, "users/" + currentUser.user_id), {
-            isLoggedIn: false
-        });
-
-        currentUser = null;
-        alert("Logged Out!");
-    } catch (error) {
-        console.log(error);
-    }
-}
