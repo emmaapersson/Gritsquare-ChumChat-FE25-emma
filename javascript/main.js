@@ -59,5 +59,3 @@ export const deleteMessage = async (messageId) => {
     }
 }
 
-//test
-RenderMessageBox("Eddie", "I hate my life");
