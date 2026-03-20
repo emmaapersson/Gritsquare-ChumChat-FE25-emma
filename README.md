@@ -9,7 +9,7 @@ A simple real-time chat application where users can send messages to each other.
 * User authentication (sign up, login, logout)
 * Real-time messaging
 * Chat rooms
-* Send images in the "memes" chat 🖼️
+* Send images in the "memes" chat
 * Active users list
 * Responsive design (mobile & desktop)
 
@@ -35,7 +35,7 @@ A simple real-time chat application where users can send messages to each other.
 2. Create an account or log in
 3. Join a chat room
 4. Start chatting in real-time
-5. Share memes in the memes chat 😄
+5. Share memes in the memes chat
 
 ---
 
@@ -97,5 +97,17 @@ Permission is hereby granted to any person obtaining a copy of this application 
 * This application may not be used for commercial purposes without permission.
 
 THE APPLICATION IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+---
+
+# Links
+
+**GitHub Repository**
+
+https://github.com/andi49/Gritsquare-ChumChat-FE25
+
+**GitHub Pages**
+
+https://andi49.github.io/Gritsquare-ChumChat-FE25
 
 ---
