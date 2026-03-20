@@ -41,11 +41,8 @@ A simple real-time chat application where users can send messages to each other.
 
 ## 🛠️ Tech Stack
 
-* Frontend: (e.g. React / HTML / CSS / JavaScript)
-* Backend: (e.g. Node.js / Express)
-* Real-time: (e.g. Socket.io / WebSockets)
-* Database: (e.g. MongoDB / Firebase)
-
+* Frontend: ( HTML / CSS / JavaScript)
+* Backend: (JavaScript)
 ---
 
 ## 🤝 Contributing
