@@ -34,7 +34,7 @@ nav {
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: var(--colorFour);
     font-weight: bold;
     font-family: var(--font-one);
     font-size: 1rem;
@@ -80,7 +80,7 @@ nav {
 }
 
 .message-area:focus {
-  background: #fff;
+  background: var(--colorFour);
   box-shadow: 0 0 0 2px rgba(0, 168, 107, 0.2);
 }
 
@@ -89,7 +89,7 @@ nav {
   border-radius: 12px;
   border: none;
   background: linear-gradient(135deg, #00A86B, #00c97f);
-  color: white;
+  color: var(--colorFour);
   letter-spacing: 0.5px;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -109,7 +109,7 @@ nav {
   display: flex;
   gap: 10px;
   align-items: center;
-  background: white;
+  background: var(--colorFour);
   padding: 10px;
   border-radius: 20px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
@@ -130,7 +130,7 @@ nav {
   padding: 25px;
   position: relative;
   margin: 50px auto;
-  color: white;
+  color: var(--colorFour);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
@@ -161,7 +161,7 @@ nav {
   top: 10px;
   right: 10px;
   background: red;
-  color: white;
+  color: var(--colorFour);
   border: none;
   border-radius: 100px;
   padding: 5px 10px;
@@ -186,7 +186,7 @@ nav {
 
 .actions {
   display: flex;
-  background: #f1f1f1;
+  background: var(--colorFour);
   border-radius: 12px;
   padding: 8px;
 }
@@ -207,8 +207,8 @@ nav {
    left: 0;
    bottom: 0;
    width: 100%;
-   background-color: #00A86B;
-   color: white;
+   background-color: var(--colorOne);
+   color: var(--colorFour);
    text-align: center;
 }
 

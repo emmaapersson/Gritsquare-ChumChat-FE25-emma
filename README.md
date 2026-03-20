@@ -1,28 +1,44 @@
-# ChumChat
+# 💬 ChumChat
 
-En enkel realtids-chattapplikation där användare kan skicka meddelanden till varandra.
-
----
-
-## Funktioner
-
-* Skicka och ta emot meddelanden i realtid
-* Användarnamn / login (valfritt)
-* Visa aktiva användare
-* Responsiv design (mobil & desktop)
-
----
-## Användning
-
-1. Öppna sidan i webbläsaren
-2. Ange ett användarnamn
-3. Börja chatta i realtid med andra användare
+A simple real-time chat application where users can send messages to each other.
 
 ---
 
-## Projektstruktur
+## 🚀 Features
 
-```bash
+* User authentication (sign up, login, logout)
+* Real-time messaging
+* Chat rooms
+* Send images in the "memes" chat 🖼️
+* Active users list
+* Responsive design (mobile & desktop)
+
+---
+
+## 🎨 Design & Color Palette
+
+| Color | Hex       | Usage                         |
+| ----- | --------- | ----------------------------- |
+| 🟩    | `#00A86B` | Primary (buttons, highlights) |
+| ⬛     | `#000000` | Text / dark                   |
+| 🟫    | `#F2EAE0` | Background                    |
+| ⬜     | `#FFFFFF` | Cards / content               |
+
+---
+
+## 💡 Usage
+
+1. Open the app in your browser
+2. Create an account or log in
+3. Join a chat room
+4. Start chatting in real-time
+5. Share memes in the memes chat 😄
+
+---
+
+## 📂 Project Structure
+
+```bash id="rx7f9c"
 chat-app/
  ├── client/        # Frontend
  ├── server/        # Backend
@@ -31,18 +47,27 @@ chat-app/
 ```
 
 ---
-## Bidrag
-Pull requests är välkomna!
 
-[Andreas](https://github.com/andi49) (PROJEKTLEDARE) 🚩
+## 🛠️ Tech Stack
 
-[Eddie](https://github.com/eddiewn) 
+* Frontend: (e.g. React / HTML / CSS / JavaScript)
+* Backend: (e.g. Node.js / Express)
+* Real-time: (e.g. Socket.io / WebSockets)
+* Database: (e.g. MongoDB / Firebase)
 
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome!
+
+[Andreas](https://github.com/andi49) (PROJECT LEAD) 🚩
+[Eddie](https://github.com/eddiewn)
 [Jack](https://github.com/jackgustafsson)
 
 ---
 
-## Licens
+## 📄 License
 
 MIT License
 
