@@ -32,6 +32,11 @@ nav {
     
 }
 
+.dark-mode {
+  background-color: black;
+  color: red;
+}
+
 .menu a {
     text-decoration: none;
     color: var(--colorFour);
