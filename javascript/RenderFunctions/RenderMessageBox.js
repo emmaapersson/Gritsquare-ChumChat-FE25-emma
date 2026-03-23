@@ -1,7 +1,9 @@
 import { deleteMessage } from "../MessageFunctions/deleteMessage.js";
-import { currentUser } from "../Auth/auth.js";
+import { auth } from "../firebase.js";
 
-export const RenderMessageBox = (sender, message, messageKey) => {
+const user = auth.currentUser;
+
+export const RenderMessageBox = async(sender, message, messageKey) => {
     const ChatContainer = document.querySelector(".chat-container");
 
     const ChatBox = document.createElement("div");
@@ -18,13 +20,12 @@ export const RenderMessageBox = (sender, message, messageKey) => {
     const UserInfo = document.createElement("section")
     UserInfo.className = "chat-user-info"
 
-
     UserInfo.append(ChatBoxSender, ChatboxImg)
 
     ChatBox.append(UserInfo)
 
-    if(currentUser){
-        if(currentUser.id === message.user_id){
+    if(user){
+        if(currentUser.uid === message.user_id){
             const ChatButtonDelete = document.createElement('button')
             ChatButtonDelete.innerText = 'X'
             ChatButtonDelete.classList = 'close-button'

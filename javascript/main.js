@@ -23,7 +23,6 @@ const hello = onValue(reference, snapshot => {
     const users = data.users;
 
     RenderMessages(users, messages)
-    console.log(messages)
 })
 
 onValue(messagesRef, snapshot => {
