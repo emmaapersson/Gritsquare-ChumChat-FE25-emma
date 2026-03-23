@@ -26,7 +26,7 @@ If you have other ideas, please contact me.
 
 ## Features ChumChat want
 
-- [ ] Filter for inappropriate or bad words  
+- [X] Filter for inappropriate or bad words  
 - [ ] Custom cursor 
 
 If you have other ideas, feel free to contact me.
