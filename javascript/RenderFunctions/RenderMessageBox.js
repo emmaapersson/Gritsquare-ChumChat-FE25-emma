@@ -15,9 +15,9 @@ export const RenderMessageBox = async (sender, message, messageKey, nestAmount =
     console.log(nestAmount)
 
     if (window.innerWidth > 768) {
-    ChatBox.style.marginLeft = `${nestAmount * 50}px`;
-} else {
-    // För mobil, ingen margin
+    ChatBox.style.marginLeft = `${nestAmount * 20}px`;
+    } else {
+
     ChatBox.style.marginLeft = `5px`;
 }
 
@@ -72,32 +72,45 @@ export const RenderMessageBox = async (sender, message, messageKey, nestAmount =
         },
     );
 
+ChatBox.append(ChatBoxMessage, TimeStamp);
+
+
+if (nestAmount >= 5) {
+    const limitText = document.createElement("p");
+    limitText.textContent = "Max reply depth reached";
+    limitText.style.opacity = "0.6";
+    limitText.style.fontSize = "12px";
+
+    ChatBox.append(limitText);
+
+} else {
     const replyForm = document.createElement("form");
-    replyForm.className = "reply-form"
+    replyForm.className = "reply-form";
+
     const ChatReply = document.createElement("p");
     ChatReply.innerHTML = "Reply";
 
     const comments = document.createElement("input");
     comments.placeholder = "Reply...";
     comments.classList = "actions";
-    comments.name = "replyText"
+    comments.name = "replyText";
 
-    const submitReply = document.createElement("button")
-    submitReply.type = "submit"
-    submitReply.textContent = "Submit Reply"
+    const submitReply = document.createElement("button");
+    submitReply.type = "submit";
+    submitReply.textContent = "Submit Reply";
 
     replyForm.addEventListener("submit", (e) => {
         e.preventDefault();
-            const formData = new FormData(replyForm);
+        const formData = new FormData(replyForm);
+        const replyText = formData.get("replyText");
 
-            const replyText = formData.get("replyText");
-
-        // console.log(message)
         sendReply(messageKey, replyText);
-    })
+    });
 
-    replyForm.append(ChatReply, comments, submitReply)
+    replyForm.append(ChatReply, comments, submitReply);
+    ChatBox.append(replyForm);
+}
 
-    ChatBox.append(ChatBoxMessage, TimeStamp, replyForm);
-    ChatContainer.appendChild(ChatBox);
-};
+
+ChatContainer.appendChild(ChatBox);
+} 

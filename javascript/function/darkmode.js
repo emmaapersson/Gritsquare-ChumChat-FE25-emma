@@ -1,8 +1,7 @@
 function darkMode() {
     const darkmodeButton = document.querySelector('#darkmodeButton');
     const main = document.querySelector('#main');
-    const sidenav = document.querySelector('#sidenav')
-    const sidenava = document.querySelector('.sidenav')
+    const footer = document.querySelector('footer')
 
     if (!darkmodeButton || !main) {
         console.error("Element saknas i DOM");
@@ -11,10 +10,8 @@ function darkMode() {
 
     darkmodeButton.addEventListener('click', () => {
         main.classList.toggle("dark-mode");
-        sidenav.classList.toggle('dark-modenav')
-        sidenava.classList.toggle('dark-modeA')
+        footer.classList.add('footer-dark')
     });
 }
 
-// Kör funktionen när skriptet laddas
 darkMode();

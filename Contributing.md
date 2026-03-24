@@ -19,6 +19,7 @@ Before starting, please contact me on Discord: **andionlyfans**.
 
 - [ ] Like/Dislike system for posts and answers  
 - [ ] Emoji reactions 
+- [ ]  
 
 If you have other ideas, please contact me.
 

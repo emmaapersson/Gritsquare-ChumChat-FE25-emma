@@ -76,7 +76,11 @@ nav {
 
 .dark-mode {
   background-image: url(../img/chatDark.jpg);
+ 
+}
 
+.footer-dark h3, p, h2{
+  color: black;
 }
 
 
