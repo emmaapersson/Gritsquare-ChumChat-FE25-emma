@@ -272,7 +272,7 @@ nav {
 /* FOOTER */
 
 .footer {
-  width: 100%;
+  max-width: 100%;
   background-color: var(--colorOne);
   color: var(--colorFour);
   text-align: center;

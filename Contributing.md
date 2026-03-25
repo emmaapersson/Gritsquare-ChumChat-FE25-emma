@@ -18,6 +18,7 @@ Before starting, please contact me on Discord: **andionlyfans**.
 ## Features ChumChat Need
 - [X] Filter for inappropriate or bad words 
 - [X] Like/Dislike/Favorite system for posts and answers  
+- [X] Bot Check
 - [ ] Emoji reactions 
 - [ ] Post picture in the chat
 - [ ] Make it so user can't send vulnerable code
