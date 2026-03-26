@@ -4,7 +4,6 @@ import { toggleFavorite } from "../MessageFunctions/favoriteMessage.js";
 import { deletePicture } from "../MessageFunctions/deletePicture.js";
 import { ref, remove } from "https://www.gstatic.com/firebasejs/12.10.0/firebase-database.js";
 
-// Renderar en enskild bild
 export const RenderImageBox = (uploader, imageData, imageKey, isLiked, isFav) => {
     const user = auth.currentUser;
 
