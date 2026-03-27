@@ -69,6 +69,8 @@ export const RenderMessages = async (usersObject, messagesObject, replyObject, c
             RenderMessageBox({ username: "Unknown", img: "" }, messageElement, messageKey, nestAmount, isLiked, isFav);
         }
 
+
+        
         checkForReply(messageElement.message_id, 0);
     }
 };

@@ -19,11 +19,6 @@ form.addEventListener("submit", (e) => {
   const text = input.value.trim();
   if (!text) return;
 
-  // create message
-  const message = document.createElement("p");
-  message.textContent = text;
-  document.querySelector(".content").appendChild(message);
-
   input.value = "";
 
   // 🌍 re-translate
